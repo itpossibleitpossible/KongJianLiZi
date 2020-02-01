@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.universe_explorer.kongjianlizi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="巡天二号"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".XData"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".XList"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".X50M" />
+        <activity android:name=".X55M" />
+        <activity android:name=".X60M" />
+        <activity android:name=".X65M" />
+        <activity android:name=".X70M" />
+        <activity android:name=".X75M" />
+        <activity android:name=".X80M" />
+        <activity android:name=".X85M" />
+        <activity android:name=".X50para" />
+        <activity android:name=".X55para" />
+        <activity android:name=".X60para" />
+        <activity android:name=".X65para" />
+        <activity android:name=".X70para" />
+        <activity android:name=".X80para" />
+        <activity android:name=".X75para" />
+        <activity android:name=".X85para"></activity>
+    </application>
+
+</manifest>
